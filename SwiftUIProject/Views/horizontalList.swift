@@ -21,6 +21,8 @@ struct horizontalList: View {
                             self.presentationMode.wrappedValue.dismiss()
                         }, label: {
                             Image(systemName: "house.fill")
+                                .foregroundColor(.white)
+                                .shadow(color: .red, radius: 5, x: 0.0, y: 0.0)
                         })
                         .padding(15)
                         Spacer()
